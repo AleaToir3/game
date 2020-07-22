@@ -1,6 +1,7 @@
 require 'bundler'
 Bundler.require
-
+superman = HumanPlayer.new("superman")
+superwomen = HumanPlayer.new("superwomen")
 require_relative 'lib/game'
 require_relative 'lib/player'
 player1 = Player.new("Sarkozy")
